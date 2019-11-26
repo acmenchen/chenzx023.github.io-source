@@ -253,7 +253,7 @@ alipay: /uploads/zhifubao.jpeg
 
 # Declare license on posts
 post_copyright:
-  enable: false
+  enable: true
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
@@ -354,7 +354,7 @@ mathjax:
 han: false
 
 # Swiftype Search API Key
-#swiftype_key:
+# swiftype_key: WxukR5mc8nUzgxtxhEJb
 
 # Baidu Analytics ID
 #baidu_analytics:
@@ -422,8 +422,8 @@ gitment:
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-#baidushare:
-##  type: button
+baidushare: true
+#  type: button
 
 # Share
 # This plugin is more useful in China, make sure you known how to use it.
@@ -607,14 +607,13 @@ algolia_search:
 
 # Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
-local_search:
-  enable: true
+# local_search:
+  # enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
-  trigger: auto
+  # trigger: auto
   # show top n results per article, show all results by setting to -1
-  top_n_per_article: 1
-  unescape: false
+  # top_n_per_article: 1
 
 # ---------------------------------------------------------------
 # Tags Settings
@@ -679,8 +678,8 @@ motion:
 fancybox: true
 
 # Progress bar in the top during page loading.
-pace: false
-# Themes list:
+pace: true
+# Themes list: 
 #pace-theme-big-counter
 #pace-theme-bounce
 #pace-theme-barber-shop
@@ -817,8 +816,9 @@ images: images
 version: 5.1.4
 
 # 搜索
-search:
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
+# search:
+#   path: search.xml
+#   field: post
+#   format: html
+#   limit: 10000
+#   content: true
