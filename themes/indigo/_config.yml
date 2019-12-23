@@ -31,7 +31,7 @@ menu:
     url: /custom
 
 # 你的头像url
-avatar: /img/avatar.jpeg
+avatar: /img/avatar.jpg
 # avatar link
 avatar_link: /
 # 头像背景图
@@ -66,8 +66,8 @@ share: true
 # 是否开启打赏，关闭 reward: false
 reward:
   title: 谢谢大爷~
-  wechat: /img/wechat.jpeg     #微信，关闭设为 false
-  alipay: /img/alipay.jpeg     #支付宝，关闭设为 false
+  wechat: /img/wechat.jpg     #微信，关闭设为 false
+  alipay: /img/alipay.jpg     #支付宝，关闭设为 false
 
 # 是否开启搜索
 search: true
