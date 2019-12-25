@@ -92,6 +92,8 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: indigo
 
+baidu_site_verification: i9DUgRcmpu
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
